@@ -228,7 +228,7 @@ function commander(cmd) {
             loopLines(welcome, "", 80);
             break;
         case "gui":
-            addLine("OPening GUI version...", "color2", 80);
+            addLine("Opening GUI version...", "color2", 80);
             newTab("/gui.html")
             break;
         case "history":
