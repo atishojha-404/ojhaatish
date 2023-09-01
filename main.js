@@ -228,8 +228,8 @@ function commander(cmd) {
             loopLines(welcome, "", 80);
             break;
         case "gui":
-            addLine("Comming Soon...", "color2", 80);
-            // newTab(gui)
+            addLine("OPening GUI version...", "color2", 80);
+            newTab("/gui.html")
             break;
         case "history":
             addLine("<br>", "", 0);
