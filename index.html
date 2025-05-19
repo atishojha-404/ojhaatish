@@ -7,6 +7,124 @@
     <title>Aish Ojha | Terminal</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="icon" type="image/x-icon" href="icon.jpg" />
+    <style>
+        html, body {
+            width: 100vw;
+            max-width: 100vw;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+        .blog-list {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        .blog-list-item {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 3px solid #FFB300;
+            background: rgba(255, 179, 0, 0.05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        .blog-list-item:hover {
+            background: rgba(255, 179, 0, 0.1);
+            transform: translateX(5px);
+        }
+        .blog-title {
+            color: #FFB300;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            display: block;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        .blog-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            display: block;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        .blog-content {
+            color: #333;
+            line-height: 1.6;
+            display: block;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: pre-wrap;
+        }
+        .game-container {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 3px solid #4CAF50;
+        }
+        .game-title {
+            color: #4CAF50;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .game-description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .blog-post {
+            margin: 20px 0;
+            padding: 20px;
+            border-left: 3px solid #FFB300;
+            background: rgba(255, 179, 0, 0.05);
+            width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        #terminal {
+            width: 100vw;
+            max-width: 100vw;
+            overflow-x: hidden;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        #commands {
+            width: 100vw;
+            max-width: 100vw;
+            overflow-x: hidden;
+        }
+        .blog-post-paper {
+            background: #fdf6e3;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10), 0 1.5px 4px 0 rgba(0,0,0,0.08);
+            border: 1px solid #f5e6c8;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            color: #3a2c13;
+            padding: 2em 2em 1.5em 2em;
+            margin: 2em 0;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+        .blog-post-paper a,
+        .blog-content a {
+            color: #1565c0;
+            text-decoration: underline;
+            transition: color 0.2s;
+            word-break: break-all;
+        }
+        .blog-post-paper a:hover,
+        .blog-content a:hover {
+            color: #d84315;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body onmousedown="return false" onselectstart="return false">
@@ -24,6 +142,7 @@
         </div>
     </div>
 
+    <script src="blog.js"></script>
     <script src="main.js"></script>
 
 </body>

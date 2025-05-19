@@ -17,12 +17,32 @@ var stackoverflow = "https://stackoverflow.com/users/14428583/atish-ojha/";
 var codepen = "https://codepen.io/atish-ojha-404/";
 var email = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=" + encodeURIComponent('ojhaatish11@gmail.com');
 
- 
-  
+// Add projects array
+projects = [
+    "<br>",
+    '<span class="command">My Projects:</span>',
+    "<br>",
+    '1. <a href="https://github.com/atishojha-404/Auth_Server" target="_blank">Auth_Server</a> - Java-based authentication server.',
+    '2. <a href="https://github.com/atishojha-404/MySecurity-App" target="_blank">MySecurity-App</a> - Security-focused Java application.',
+    '3. <a href="https://github.com/atishojha-404/JourneyJournal-App" target="_blank">JourneyJournal-App</a> - Personal journey journal app in Java.',
+    '4. <a href="https://github.com/atishojha-404/Human-Resource-Management-System" target="_blank">Human-Resource-Management-System</a> - HR management system in Java.',
+    '5. <a href="https://github.com/atishojha-404/Core-Banking-System" target="_blank">Core-Banking-System</a> - Core banking system in Java.',
+    '6. <a href="https://github.com/atishojha-404/Bank" target="_blank">Bank</a> - Another core banking system project in Java.',
+    "<br>"
+];
 
-  
-
-
+// Add skills array
+skills = [
+    "<br>",
+    '<span class="command">Technical Skills:</span>',
+    "<br>",
+    "• Programming Languages: Java, JavaScript",
+    "• Web Technologies: HTML, CSS",
+    "• Frameworks/Tools: Spring Boot, Git, Maven",
+    "• Databases: MySQL, MongoDB",
+    "• Other: REST APIs, Security, Software Engineering Principles",
+    "<br>"
+];
 
 whoareyou = [
     "<br>",
@@ -68,8 +88,12 @@ help = [
     '<span class="command">history</span>        View command history.',
     '<span class="command">reload</span>         Reload terminal.',
     '<span class="command">clear</span>          Clear terminal.',
+    '<span class="command">projects</span>       View my projects.',
+    '<span class="command">skills</span>         View my technical skills.',
+    '<span class="command">blog</span>           View blog posts.',
+    '<span class="command">view</span>           View resume in new tab.',
+    '<span class="command">download</span>       Download resume.',
     '<span class="command">exit</span>           Close terminal👾',
-
     "<br>"
 ];
 
@@ -95,7 +119,6 @@ welcome = [
     '<b style="color:#090909">1</b><b style="color:#080808">0</b><b style="color:#060606">001</b><b style="color:#070707">1</b><b style="color:#0B0B0B">1</b><b style="color:#151515">0</b><b style="color:#161616">0</b><b style="color:#1A1A1A">0</b><b style="color:#141414">0</b><b style="color:#161616">1</b><b style="color:#0B0B0B">0</b><b style="color:#080808">0</b><b style="color:#050505">1</b><b style="color:#070707">1</b><b style="color:#090909">0</b><b style="color:#060606">1011</b><b style="color:#050505">1</b><b style="color:#070707">1</b><b style="color:#060606">1</b><b style="color:#050505">0</b><b style="color:#080808">1</b><b style="color:#070707">00</b><b style="color:#080808">01</b><b style="color:#060606">00</b><b style="color:#080808">0</b><b style="color:#060606">0</b><b style="color:#070707">0</b><b style="color:#060606">0</b><b style="color:#141414">0</b><b style="color:#1E1E1E">0</b><b style="color:#161616">0</b><b style="color:#151515">1</b><b style="color:#1E1E1E">1</b><b style="color:#1B1B1B">1</b><b style="color:#111111">0</b><b style="color:#060606">0</b><b style="color:#080808">01</b><b style="color:#060606">011</b><b style="color:#080808">0</b>',
     '<b style="color:#060606">000</b><b style="color:#070707">1</b><b style="color:#060606">1</b><b style="color:#050505">1</b><b style="color:#131313">1</b><b style="color:#1E1E1E">0</b><b style="color:#171717">1</b><b style="color:#151515">00</b><b style="color:#141414">0</b><b style="color:#0B0B0B">0</b><b style="color:#060606">01</b><b style="color:#070707">1</b><b style="color:#060606">0</b><b style="color:#050505">1</b><b style="color:#060606">1000</b><b style="color:#070707">0</b><b style="color:#050505">0</b><b style="color:#060606">11</b><b style="color:#070707">0</b><b style="color:#060606">00</b><b style="color:#080808">1</b><b style="color:#060606">0</b><b style="color:#070707">000</b><b style="color:#060606">01</b><b style="color:#0F0F0F">1</b><b style="color:#131313">0</b><b style="color:#111111">01</b><b style="color:#181818">1</b><b style="color:#1B1B1B">1</b><b style="color:#1A1A1A">0</b><b style="color:#131313">1</b><b style="color:#060606">0</b><b style="color:#080808">1010</b><b style="color:#090909">0</b>',
     '<b style="color:#060606">1</b><b style="color:#080808">0</b><b style="color:#090909">1</b><b style="color:#060606">1</b><b style="color:#080808">1</b><b style="color:#060606">1</b><b style="color:#101010">0</b><b style="color:#121212">1</b><b style="color:#161616">00</b><b style="color:#0E0E0E">0</b><b style="color:#0D0D0D">1</b><b style="color:#0A0A0A">0</b><b style="color:#060606">01</b><b style="color:#080808">1</b><b style="color:#070707">0</b><b style="color:#080808">00</b><b style="color:#060606">0</b><b style="color:#080808">1111</b><b style="color:#060606">1</b><b style="color:#070707">0</b><b style="color:#080808">0</b><b style="color:#070707">11</b><b style="color:#080808">1</b><b style="color:#060606">1</b><b style="color:#080808">0</b><b style="color:#060606">10</b><b style="color:#080808">0</b><b style="color:#060606">1</b><b style="color:#0B0B0B">0</b><b style="color:#131313">1</b><b style="color:#121212">0</b><b style="color:#101010">0</b><b style="color:#121212">0</b><b style="color:#111111">1</b><b style="color:#1B1B1B">0</b><b style="color:#131313">1</b><b style="color:#060606">0</b><b style="color:#080808">101</b><b style="color:#090909">0</b><b style="color:#070707">0</b>',
-    '<b style="color:#050505">1</b><b style="color:#060606">1</b><b style="color:#080808">001</b><b style="color:#060606">1</b><b style="color:#0C0C0C">0</b><b style="color:#151515">1</b><b style="color:#111111">0</b><b style="color:#121212">1</b><b style="color:#0F0F0F">1</b><b style="color:#101010">0</b><b style="color:#090909">0</b><b style="color:#060606">1</b><b style="color:#050505">1</b><b style="color:#080808">00</b><b style="color:#050505">1</b><b style="color:#060606">0</b><b style="color:#070707">0</b><b style="color:#080808">1</b><b style="color:#060606">10</b><b style="color:#080808">1</b><b style="color:#070707">00</b><b style="color:#060606">1</b><b style="color:#050505">1</b><b style="color:#080808">100</b><b style="color:#090909">1</b><b style="color:#060606">0100</b><b style="color:#0C0C0C">1</b><b style="color:#101010">0</b><b style="color:#111111">1</b><b style="color:#161616">0</b><b style="color:#101010">0</b><b style="color:#0C0C0C">0</b><b style="color:#131313">1</b><b style="color:#0B0B0B">0</b><b style="color:#090909">1</b><b style="color:#080808">1</b><b style="color:#090909">0</b><b style="color:#080808">0</b><b style="color:#060606">1</b><b style="color:#080808">1</b>',
     '</pre>',
 
     '<span class="color2">Welcome to Ojha`s web terminal!!</span>',
@@ -158,7 +181,11 @@ function enterKey(e) {
 
 function newTab(link) {
     setTimeout(function () {
-        window.open(link, "_blank");
+        // Get the current URL's origin and pathname
+        const currentPath = window.location.pathname;
+        const basePath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1);
+        const absoluteLink = window.location.origin + basePath + link;
+        window.open(absoluteLink, "_blank");
     }, 500);
 }
 
@@ -205,7 +232,9 @@ function getRandomParagraph(whoamiList) {
 
 
 function commander(cmd) {
-    switch (cmd.toLowerCase()) {
+    const parts = cmd.toLowerCase().split(' ');
+    
+    switch (parts[0]) {
         case "help":
             loopLines(help, "color2 margin", 80);
             break;
@@ -213,7 +242,6 @@ function commander(cmd) {
             loopLines(whoareyou, "color2 margin", 80);
             break;
         case "whoami":
-            // Assign random whoami paragraph
             var randomwhoami = getRandomParagraph(whoami);
             loopLines([randomwhoami], "color2 margin", 80);
             break;
@@ -235,6 +263,36 @@ function commander(cmd) {
             addLine("<br>", "", 0);
             loopLines(commands, "color2", 80);
             addLine("<br>", "command", 80 * commands.length + 50);
+            break;
+        case "projects":
+            loopLines(projects, "color2 margin", 80);
+            break;
+        case "skills":
+            loopLines(skills, "color2 margin", 80);
+            break;
+        case "blog":
+            if (parts.length === 1) {
+                displayBlogList(getAllPosts());
+            } else if (parts[1] === "read" && parts[2]) {
+                const post = blogPosts.find(p => p.id === parseInt(parts[2]));
+                displayBlogPost(post);
+            } else {
+                addLine("Invalid blog command. Use 'blog' to see all posts.", "error", 80);
+            }
+            break;
+        case "clear":
+            setTimeout(function () {
+                terminal.innerHTML = '<a id="before"></a>';
+                before = document.getElementById("before");
+            }, 1);
+            break;
+        case "reload":
+            addLine("Reloading...", 80);
+            location.reload();
+            break;
+        case "exit":
+            addLine("Closing...", 80);
+            window.location.replace('https://www.google.com');
             break;
         // socials
         case "instagram":
@@ -261,19 +319,43 @@ function commander(cmd) {
             addLine("Opening Codepen...", "color2", 0);
             newTab(codepen);
             break;
-        case "clear":
-            setTimeout(function () {
-                terminal.innerHTML = '<a id="before"></a>';
-                before = document.getElementById("before");
-            }, 1);
+        case "view":
+            addLine("Opening resume in new tab...", "color2", 80);
+            const viewResumeLink = "Atish_Ojha_Resume.pdf";
+            window.open(viewResumeLink, '_blank');
             break;
-        case "reload":
-            addLine("Reloading...", 80);
-            location.reload();
-            break;
-        case "exit":
-            addLine("Closing...", 80);
-            window.location.replace('https://www.google.com');
+        case "download":
+            addLine("Initiating resume download...", "color2", 80);
+            const currentPath = window.location.pathname;
+            const basePath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1);
+            const resumeLink = window.location.origin + basePath + "Atish_Ojha_Resume.pdf";
+            
+            // Use fetch to get the file and force download
+            fetch(resumeLink)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.blob();
+                })
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.setAttribute('download', 'Atish_Ojha_Resume.pdf');
+                    link.style.display = 'none';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    window.URL.revokeObjectURL(url);
+                    addLine("Resume download started successfully!", "color2", 80);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    addLine("Error downloading resume. Please try the fallback link below.", "error", 80);
+                    const clickHere = window.open(resumeLink, '_blank');
+                    addLine(`<a href="${clickHere}" download>Click here to download resume</a>`, "color2", 80);
+                });
             break;
         default:
             addLine("<span class=\"inherit\"><span class=\"command\">" + cmd + "</span>: command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
@@ -327,6 +409,34 @@ function moveIt(count, e) {
 
 function alert(txt) {
     console.log(txt);
+}
+
+function displayBlogList(posts) {
+    let output = ["<br>"];
+    posts.forEach(post => {
+        output.push(
+            `<div class="blog-list-item" onclick="commander('blog read ${post.id}')">
+                <span class="blog-title">${post.title}</span><br>
+                <span class="blog-meta">${post.date} | ${post.category}</span>
+            </div>`
+        );
+    });
+    output.push("<br>");
+    loopLines(output, "color2 margin", 80);
+}
+
+function displayBlogPost(post) {
+    if (!post) {
+        addLine("Blog post not found.", "error", 80);
+        return;
+    }
+    
+    let output = [
+        "<br>",
+        `<div class=\"blog-post-paper\">\n  <div class=\"blog-title\">${post.title}</div>\n  <div class=\"blog-meta\">${post.date} | ${post.category}</div>\n  <div class=\"blog-content\">${post.content}</div>\n</div>`,
+        "<br>"
+    ];
+    loopLines(output, "color2 margin", 80);
 }
 
 
