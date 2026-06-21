@@ -22,12 +22,22 @@ projects = [
     "<br>",
     '<span class="command">My Projects:</span>',
     "<br>",
-    '1. <a href="https://github.com/atishojha-404/Auth_Server" target="_blank">Auth_Server</a> - Java-based authentication server.',
-    '2. <a href="https://github.com/atishojha-404/MySecurity-App" target="_blank">MySecurity-App</a> - Security-focused Java application.',
-    '3. <a href="https://github.com/atishojha-404/JourneyJournal-App" target="_blank">JourneyJournal-App</a> - Personal journey journal app in Java.',
-    '4. <a href="https://github.com/atishojha-404/Human-Resource-Management-System" target="_blank">Human-Resource-Management-System</a> - HR management system in Java.',
-    '5. <a href="https://github.com/atishojha-404/Core-Banking-System" target="_blank">Core-Banking-System</a> - Core banking system in Java.',
-    '6. <a href="https://github.com/atishojha-404/Bank" target="_blank">Bank</a> - Another core banking system project in Java.',
+    '1. <a href="https://github.com/atishojha-404/Auth_Server" target="_blank">Auth_Server</a>',
+    '   JWT-based authentication server with Spring Boot, Spring Security, MySQL, and role-based access control.',
+    "<br>",
+    '2. <a href="https://github.com/atishojha-404/Core-Banking-System" target="_blank">Core-Banking-System</a>',
+    '   Full-featured banking platform: accounts, transactions, loans, reporting — with atomicity & audit trails.',
+    "<br>",
+    '3. <a href="https://github.com/atishojha-404/Human-Resource-Management-System" target="_blank">Human-Resource-Management-System</a>',
+    '   Spring Boot HR platform with REST APIs, MySQL, and modular microservice structure.',
+    "<br>",
+    '4. <a href="https://github.com/atishojha-404/MySecurity-App" target="_blank">MySecurity-App</a>',
+    '   Security-focused Java application exploring Spring Security patterns.',
+    "<br>",
+    '5. <a href="https://github.com/atishojha-404/JourneyJournal-App" target="_blank">JourneyJournal-App</a>',
+    '   Personal journey journaling app built in Java.',
+    "<br>",
+    'View all projects → <a href="https://github.com/atishojha-404/" target="_blank">github/atishojha-404</a>',
     "<br>"
 ];
 
@@ -36,17 +46,61 @@ skills = [
     "<br>",
     '<span class="command">Technical Skills:</span>',
     "<br>",
-    "• Programming Languages: Java, JavaScript",
-    "• Web Technologies: HTML, CSS",
-    "• Frameworks/Tools: Spring Boot, Git, Maven",
-    "• Databases: MySQL, MongoDB",
-    "• Other: REST APIs, Security, Software Engineering Principles",
+    "• <b>Languages:</b>            Java, SQL, Python (collaboration)",
+    "• <b>Frameworks:</b>           Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs",
+    "• <b>Cloud & DevOps:</b>       AWS (EC2, RDS, S3, SQS, SNS, SES), Docker, Kubernetes (CKAD Certified), CI/CD",
+    "• <b>Databases:</b>            MySQL, PostgreSQL — query optimization, indexing, schema design",
+    "• <b>Architecture:</b>         Microservices, Multi-Tenant Systems, Event-Driven (RabbitMQ), MCP, JWT Auth",
+    "• <b>Practices:</b>            Agile/Scrum, Code Review, Technical Documentation, Cross-functional Leadership",
+    "<br>"
+];
+
+// Experience
+experience = [
+    "<br>",
+    '<span class="command">Work Experience:</span>',
+    "<br>",
+    '<b>Software Engineer</b> — Access Systems / Sclera, Kathmandu',
+    'January 2023 – Present',
+    "<br>",
+    '• Architected MCP (Model Context Protocol) tool layer enabling AI orchestration over backend services.',
+    '• Delivered production-grade microservices for multi-tenant enterprise platforms.',
+    '• Led cross-functional teams (Java & Python devs) — architecture, specs, and delivery.',
+    '• Reduced API response time by <b>40%+</b> via query optimization, indexing & data-layer refactoring.',
+    '• Redesigned MySQL schemas for data integrity, performance, and audit-readiness.',
+    '• Implemented JWT auth + RBAC across microservices in a multi-tenant environment.',
+    '• Integrated AWS (EC2, RDS, S3, SQS, SNS, SES) for cloud-native, fault-tolerant infrastructure.',
+    '• Led end-to-end environment management across QA, UAT, staging and production.',
+    "<br>",
+    '<b>Java Intern</b> — Access Systems, Lalitpur',
+    'January 2023 – April 2023',
+    "<br>",
+    '• Built Spring Boot RESTful APIs with CRUD operations, MySQL integration, and DTO patterns.',
+    '• Integrated AWS S3 for scalable, secure file storage.',
+    "<br>",
+    '<b>Data Entry Specialist</b> — CloudFactory, Kathmandu',
+    'November 2022 – April 2023',
+    "<br>",
+    '• Documented repeatable data annotation processes ensuring traceability for structured data pipelines.',
+    "<br>"
+];
+
+// Certifications
+certifications = [
+    "<br>",
+    '<span class="command">Certifications:</span>',
+    "<br>",
+    '🏆 <b>Kubernetes Certified Application Developer (CKAD)</b> — CNCF',
+    '   <a href="https://www.credly.com/users/atish-ojha" target="_blank">View Certificate →</a>',
+    "<br>",
+    '📜 <b>Software Architecture & Design of Modern Large Scale Systems</b>',
+    '   <a href="https://www.udemy.com/certificate/UC-atish-ojha/" target="_blank">View Certificate →</a>',
     "<br>"
 ];
 
 whoareyou = [
     "<br>",
-    '<span class="whoareyou">Hello, My name is Atish Ojha, and I`m delighted to have the opportunity to introduce myself to all of you. I am a passionate and dedicated individual with a profound love for technology and a strong background in computer system engineering. I pursued my BSc (Hons) in Computer System Engineering from ISMT College in Kathmandu, Nepal, which is affiliated with the esteemed University of Sunderland in London. This educational journey allowed me to acquire a deep understanding of the foundations of computer systems and develop crucial problem-solving skills. Currently, I am working as a software engineer, where I have the privilege of putting my knowledge into practice. It`s an exhilarating role that challenges me to continually explore innovative solutions and expand my technical expertise. What truly drives me is the constant evolution of the technology landscape. I am always eager to stay updated with the latest developments and industry trends, which helps me bring a fresh perspective to my work and deliver exceptional results. In addition to my technical skills, I am a strong believer in the power of collaboration and teamwork. I thrive in environments where ideas are exchanged freely, and diverse perspectives are valued. I find immense joy in working alongside like-minded individuals who share a common goal of achieving excellence. Outside of work, I enjoy immersing myself in various hobbies and interests. Whether it`s reading books on emerging technologies, participating in tech meetups, or engaging in personal coding projects, I am constantly seeking ways to fuel my passion and nurture my personal growth. Thank you for your time.</span>',
+    '<span class="whoareyou">Hey! I\'m <b>Atish Ojha</b> — a Backend Software Engineer based in Kathmandu, Nepal, with 3+ years of experience building scalable, high-performance microservices and enterprise-grade systems using <b>Java</b> and <b>Spring Boot</b>.<br><br>I currently work at <b>Access Systems / Sclera</b>, where I\'ve architected AI-integrated backend systems using Model Context Protocol (MCP), led cross-functional engineering teams, and reduced API response times by 40%+ through strategic query optimization and database redesign.<br><br>My cloud toolbelt includes <b>AWS</b> (EC2, RDS, S3, SQS, SNS, SES), <b>Docker</b>, and <b>Kubernetes</b> — I\'m a CKAD-certified engineer. I love designing secure multi-tenant platforms, event-driven architectures, and anything that handles data at scale.<br><br>I hold a BSc (Hons) in Computer Systems Engineering from the <b>University of Sunderland</b> (via ISMT College, Kathmandu).<br><br>Type <b>experience</b>, <b>skills</b>, <b>projects</b>, or <b>blog</b> to explore more. Or just say hi — I\'m always open to a good conversation.</span>',
     "<br>"
 ];
 
@@ -79,21 +133,23 @@ social = [
 
 help = [
     "<br>",
-    '<span class="command">whoareyou</span>      Who is Atish Ojha?',
-    '<span class="command">whoami</span>         Who are you?',
-    '<span class="command">social</span>         List of Social Networks.',
-    '<span class="command">email</span>          Feel free to email😇',
-    '<span class="command">welcome</span>        Display welcome message.',
-    '<span class="command">gui</span>            Graphical Mode.',
-    '<span class="command">history</span>        View command history.',
-    '<span class="command">reload</span>         Reload terminal.',
-    '<span class="command">clear</span>          Clear terminal.',
-    '<span class="command">projects</span>       View my projects.',
-    '<span class="command">skills</span>         View my technical skills.',
-    '<span class="command">blog</span>           View blog posts.',
-    '<span class="command">view</span>           View resume in new tab.',
-    '<span class="command">download</span>       Download resume.',
-    '<span class="command">exit</span>           Close terminal👾',
+    '<span class="command">whoareyou</span>         Who is Atish Ojha?',
+    '<span class="command">experience</span>        Work experience & timeline.',
+    '<span class="command">skills</span>            Technical skills & stack.',
+    '<span class="command">projects</span>          View my projects.',
+    '<span class="command">certifications</span>    Certifications & credentials.',
+    '<span class="command">blog</span>              View blog posts.',
+    '<span class="command">social</span>            List of Social Networks.',
+    '<span class="command">email</span>             Feel free to email😇',
+    '<span class="command">view</span>              View resume in new tab.',
+    '<span class="command">download</span>          Download resume.',
+    '<span class="command">whoami</span>            Who are you?',
+    '<span class="command">welcome</span>           Display welcome message.',
+    '<span class="command">gui</span>               Graphical Mode.',
+    '<span class="command">history</span>           View command history.',
+    '<span class="command">reload</span>            Reload terminal.',
+    '<span class="command">clear</span>             Clear terminal.',
+    '<span class="command">exit</span>              Close terminal👾',
     "<br>"
 ];
 
@@ -121,8 +177,9 @@ welcome = [
     '<b style="color:#060606">1</b><b style="color:#080808">0</b><b style="color:#090909">1</b><b style="color:#060606">1</b><b style="color:#080808">1</b><b style="color:#060606">1</b><b style="color:#101010">0</b><b style="color:#121212">1</b><b style="color:#161616">00</b><b style="color:#0E0E0E">0</b><b style="color:#0D0D0D">1</b><b style="color:#0A0A0A">0</b><b style="color:#060606">01</b><b style="color:#080808">1</b><b style="color:#070707">0</b><b style="color:#080808">00</b><b style="color:#060606">0</b><b style="color:#080808">1111</b><b style="color:#060606">1</b><b style="color:#070707">0</b><b style="color:#080808">0</b><b style="color:#070707">11</b><b style="color:#080808">1</b><b style="color:#060606">1</b><b style="color:#080808">0</b><b style="color:#060606">10</b><b style="color:#080808">0</b><b style="color:#060606">1</b><b style="color:#0B0B0B">0</b><b style="color:#131313">1</b><b style="color:#121212">0</b><b style="color:#101010">0</b><b style="color:#121212">0</b><b style="color:#111111">1</b><b style="color:#1B1B1B">0</b><b style="color:#131313">1</b><b style="color:#060606">0</b><b style="color:#080808">101</b><b style="color:#090909">0</b><b style="color:#070707">0</b>',
     '</pre>',
 
-    '<span class="color2">Welcome to Ojha`s web terminal!!</span>',
-    "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+    '<span class="color2">Welcome to Atish Ojha\'s terminal portfolio!!</span>',
+    '<span class="color2">Backend Engineer · Java & Spring Boot · AWS · Kubernetes (CKAD)</span>',
+    "<span class=\"color2\">Type</span> <span class=\"command\">'help'</span> <span class=\"color2\">for available commands, or</span> <span class=\"command\">'whoareyou'</span> <span class=\"color2\">to learn more about me.</span>",
 ];
 
 
@@ -269,6 +326,12 @@ function commander(cmd) {
             break;
         case "skills":
             loopLines(skills, "color2 margin", 80);
+            break;
+        case "experience":
+            loopLines(experience, "color2 margin", 80);
+            break;
+        case "certifications":
+            loopLines(certifications, "color2 margin", 80);
             break;
         case "blog":
             if (parts.length === 1) {
@@ -438,7 +501,3 @@ function displayBlogPost(post) {
     ];
     loopLines(output, "color2 margin", 80);
 }
-
-
-
-
